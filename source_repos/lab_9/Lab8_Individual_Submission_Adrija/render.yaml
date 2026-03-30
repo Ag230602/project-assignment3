@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: disaster-forecast-api
+    env: python
+    plan: free
+    rootDir: Lab8_Individual_Submission_Adrija
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn api:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /healthz
+
+  - type: web
+    name: disaster-forecast-ui
+    env: python
+    plan: free
+    rootDir: Lab8_Individual_Submission_Adrija
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run app.py --server.port $PORT --server.address 0.0.0.0
+    envVars:
+      - key: API_URL
+        fromService:
+          type: web
+          name: disaster-forecast-api
+          property: url

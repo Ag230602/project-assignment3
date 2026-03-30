@@ -1,0 +1,52 @@
+Project3_Integrated_Folder/
+├── README.md
+├── PROJECT3_SUBMISSION_GUIDE.md
+├── RUN.md
+├── requirements.txt
+├── reproduce.sh
+├── diagram.png
+├── MERGE_MAP.md
+├── TODO_NEXT_STEPS.md
+├── source_links.txt
+├── configs/
+│   ├── .env.example
+│   └── requirements.txt
+├── docs/
+│   ├── SYSTEM_ARCHITECTURE.md
+│   ├── reproducibility_notes.md
+│   └── evidence/
+├── evaluation/
+│   ├── evaluate_pipeline.py
+│   └── README.md
+├── reports/
+│   ├── PROJECT3_REPORT_TEMPLATE.md
+│   └── CONTRIBUTION_TABLE_TEMPLATE.csv
+├── individual_submission/
+│   └── INDIVIDUAL_REPORT_TEMPLATE.md
+│   └── INDIVIDUAL_REPORT.md
+├── integrated_system/
+│   ├── agent/
+│   ├── retrieval/
+│   ├── domain_adaptation/
+│   ├── warehouse/
+│   ├── app/
+│   ├── evaluation/
+│   ├── deployment/
+│   ├── config/
+│   │   └── requirements.txt
+│   └── logs/
+├── logs/
+│   ├── .gitkeep
+│   └── evaluate_pipeline_output.txt
+├── src/
+│   ├── data/
+│   │   └── ingest_kb.py
+│   ├── retrieval/
+│   ├── agent/
+│   ├── model/
+│   ├── snowflake/
+│   └── app/
+└── scripts/
+    ├── clone_repos.sh
+    ├── reproduce.sh
+    └── generate_diagram_png.py

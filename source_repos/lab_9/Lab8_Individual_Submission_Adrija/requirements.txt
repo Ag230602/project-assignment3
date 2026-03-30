@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+streamlit
+requests
+transformers
+peft
+torch
+datasets
+snowflake-connector-python

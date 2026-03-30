@@ -1,0 +1,25 @@
+Scenario count: 3
+
+=== Scenario 1 ===
+Instruction: Explain hurricane forecast uncertainty for emergency planners.
+Region: Gulf Coast
+Used fallback model: True
+Retrieved documents: 3
+Warehouse facts: 3
+Reasoning steps: 5
+
+=== Scenario 2 ===
+Instruction: Interpret uncertainty for flood response planning.
+Region: Delta Basin
+Used fallback model: True
+Retrieved documents: 3
+Warehouse facts: 3
+Reasoning steps: 5
+
+=== Scenario 3 ===
+Instruction: Generate a humanitarian impact explanation from forecast indicators.
+Region: Coastal District A
+Used fallback model: True
+Retrieved documents: 2
+Warehouse facts: 3
+Reasoning steps: 5

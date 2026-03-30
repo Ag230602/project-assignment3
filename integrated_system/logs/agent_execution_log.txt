@@ -1,0 +1,14 @@
+[TURN 0] USER: What documents are available in the dataset?
+TOOL_CALL: tool_run_rag_query
+TOOL_RESULT: success
+AGENT_RESPONSE: returned evidence [D1], [D2], [T1], [A1]
+
+[TURN 1] USER: Summarize the repository structure.
+TOOL_CALL: tool_run_rag_query
+TOOL_RESULT: success
+AGENT_RESPONSE: generated grounded summary with citations [D1], [D2]
+
+[TURN 2] USER: Explain how retrieval and grounding work together in this system.
+TOOL_CALL: tool_run_rag_query
+TOOL_RESULT: success
+AGENT_RESPONSE: explanation generated using retrieved evidence

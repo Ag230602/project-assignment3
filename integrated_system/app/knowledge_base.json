@@ -1,0 +1,43 @@
+[
+  {
+    "title": "Hurricane Uncertainty Guidance",
+    "content": "Wide confidence intervals mean planners should prepare primary and adjacent coastal zones, pre-stage communications, and update evacuation triggers as track certainty improves.",
+    "source_type": "playbook",
+    "metadata": {
+      "domain": "hurricane",
+      "audience": "emergency planners"
+    }
+  },
+  {
+    "title": "Flood Response Planning Note",
+    "content": "When rainfall totals exceed drainage thresholds and river levels are rising, planners should inspect levees, prioritize floodplain populations, and prepare shelter transportation.",
+    "source_type": "planning_note",
+    "metadata": {
+      "domain": "flood"
+    }
+  },
+  {
+    "title": "Humanitarian Impact Checklist",
+    "content": "High displacement risk and fragile water access increase the need for shelter, sanitation, and child protection coordination in the first operational period.",
+    "source_type": "checklist",
+    "metadata": {
+      "domain": "humanitarian"
+    }
+  },
+  {
+    "title": "Infrastructure Consequence Brief",
+    "content": "If hospitals, bridges, or airport corridors are exposed, planners should emphasize continuity operations, patient transfer options, and alternate logistics routes.",
+    "source_type": "brief",
+    "metadata": {
+      "domain": "critical infrastructure"
+    }
+  },
+  {
+    "title": "Evacuation Capacity Reference",
+    "content": "Low transport capacity or expected road congestion means phased evacuation messaging and contraflow decision points should be prepared earlier than usual.",
+    "source_type": "reference",
+    "metadata": {
+      "domain": "evacuation"
+    }
+  }
+]

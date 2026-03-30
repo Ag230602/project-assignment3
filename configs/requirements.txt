@@ -1,0 +1,3 @@
+# Mirror of root requirements for rubric-friendly structure.
+
+-r ../integrated_system/config/requirements.txt

@@ -1,0 +1,17 @@
+[
+  {
+    "instruction": "Explain hurricane forecast uncertainty for emergency planners.",
+    "input": "Storm probability 70%, confidence interval \u00b180 km, population exposure 300000.",
+    "output": "The storm is likely to impact the region, but the uncertainty range means nearby areas should also prepare emergency responses."
+  },
+  {
+    "instruction": "Explain flood risk using forecast data.",
+    "input": "Rainfall 200 mm, river level rising, floodplain population 15000.",
+    "output": "Heavy rainfall and rising river levels indicate a high risk of flooding. Communities in floodplain areas should prepare evacuation plans."
+  },
+  {
+    "instruction": "Explain evacuation planning under uncertainty.",
+    "input": "Storm track uncertain, two coastal regions exposed.",
+    "output": "Because the storm path is uncertain, both coastal regions should prepare evacuation and emergency shelter planning."
+  }
+]

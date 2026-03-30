@@ -1,0 +1,4 @@
+# Root requirements entrypoint for grading/reproducibility.
+# Delegates to the integrated pinned requirements.
+
+-r integrated_system/config/requirements.txt

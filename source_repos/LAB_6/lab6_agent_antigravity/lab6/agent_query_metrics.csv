@@ -1,0 +1,4 @@
+timestamp,query_id,retrieval_mode,top_k,latency_ms,Precision@5,Recall@10,evidence_ids_returned,faithfulness_pass,missing_evidence_behavior
+2026-03-03T10:35:12,agent_fallback,hybrid,10,20.30,,,"D1 D2 T1 A1",true,ok
+2026-03-03T10:36:20,agent_fallback,hybrid,10,21.10,,,"D1 D2 T1 A1",true,ok
+2026-03-03T10:37:45,agent_fallback,hybrid,10,22.05,,,"D1 D2 T1 A1",true,ok
